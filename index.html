@@ -181,7 +181,10 @@
 	    	<div class="overlay"></div>
 	        	<div class="container">
 		        	<div class="col-xs-3">
-					<script type="text/plain" src="http://minecraft-api.com/api/query/playeronline.php?ip=gamecraftpe.tk&port=19132"/></script>
+					<script <?php
+$playeronline = file_get_contents('http://minecraft-api.com/api/query/playeronline.php?ip=gamecraftpe.tk&port=19132'); 
+echo $playeronline; 
+?></script>
 		        		<span class="white counter-text">players online average</span>
 		        	</div>
 		        	<div class="col-xs-3">
