@@ -270,7 +270,7 @@ section {
 
 .top {
     text-shadow: 0 0 25px rgba(0,0,0,.2);
-	height: 50%;
+	padding-top: 600px;
 }
 
 .top .content-a {
