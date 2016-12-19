@@ -289,7 +289,7 @@ section {
 .fullscreen,
 .content-a {
     width: 100%;
-    min-height: 50%;
+    height:50%;
 }
 
 .not-fullscreen,
