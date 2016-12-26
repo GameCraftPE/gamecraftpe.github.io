@@ -86,6 +86,10 @@ a:hover {
 	text-decoration: none;
 }
 
+img.facebookicon{
+	display: block;
+	width: 100%;
+}
 img {
 	display: block;
 	width: 100%;
