@@ -88,6 +88,8 @@ a:hover {
 
 img.socialmediaicons{
 	display: inline;
+	width:60px;
+	height:60px;
 }
 
 }
