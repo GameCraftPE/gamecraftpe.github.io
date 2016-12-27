@@ -78,6 +78,10 @@ p {
 	line-height: 1.7;
 }
 
+a {
+padding: 0px;
+}
+
 p a {
 	text-decoration: underline;
 }
