@@ -78,9 +78,7 @@ p {
 	line-height: 1.7;
 }
 
-a {
-padding: 0px;
-}
+
 
 p a {
 	text-decoration: underline;
@@ -90,8 +88,12 @@ a:hover {
 	text-decoration: none;
 }
 
-img a{
-padding-right: 0px;
+.socialmediaicons {
+	
+        padding: 0px;
+	display: inline;
+
+
 }
 
 
