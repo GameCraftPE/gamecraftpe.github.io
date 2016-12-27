@@ -94,7 +94,12 @@ padding: 0 0 0 10px;
     margin: 0px;
 	display:inline;
         
+}
 
+.button1 a:hover {
+padding: 0 0 0 10px;
+    border: 0px;
+    margin: 0px;
 
 }
 
@@ -105,11 +110,25 @@ padding: 0 0 0 10px;
 	display: inline;
 }
 
+.button2 a:hover {
+padding: 0 0 0 10px;
+    border: 0px;
+    margin: 0px;
+
+}
+
 .button3 {
 padding: 0 0 0 10px;
     border: 0px;
     margin: 0px;
 	display: inline;
+}
+
+.button3 a:hover {
+padding: 0 0 0 10px;
+    border: 0px;
+    margin: 0px;
+
 }
 
 img {
