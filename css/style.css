@@ -494,6 +494,10 @@ nav.affix {
 	height: auto;
 }
 
+image.socialmediaicons {
+display: inline;
+}
+
 
 /******************************/
 /**********ACTION-BAR**********/
