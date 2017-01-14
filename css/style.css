@@ -136,6 +136,18 @@ img {
 	width: 100%;
 }
 
+img.facebook{
+display: inline;
+}
+
+img.twitter{
+display: inline;
+}
+
+img.youtube{
+display: inline;
+}
+
 .container {
 	width: 100%;
 	max-width: 1240px;
