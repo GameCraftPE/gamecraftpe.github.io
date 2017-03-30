@@ -82,7 +82,7 @@
 											} else if (rounded == 100) {
 												$("#status").html("<p>" + "<span style='color:#00AA00;text-shadow: 3px 3px #002a00;'>Online</span> (" + data.version + ") — " + data.players.online.toLocaleString() + "/" + data.players.max.toLocaleString() + " <span style='color:#00aa00;text-shadow: 3px 3px #002a00;'>||||||||||</span></p>");
 											} else {
-												
+
 											}
 										} else {
 										 $("#status").html("<p><span style='color:#ff5555;         text-shadow: 3px 3px #3F1515;'>The server is offline or unreachable</span></p>");
@@ -92,7 +92,7 @@
 						 	}
 						 	updateDiv();
 						 	setInterval(updateDiv, 10000);
-							});
+						});
 				 </script>
 				 <div id="status">
 				 <p style="color: #AAAAAA;text-shadow: 3px 3px #2a2a2a;" class="loading">Loading network status</p>
