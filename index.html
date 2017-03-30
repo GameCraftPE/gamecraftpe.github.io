@@ -47,6 +47,57 @@
        			<div class="dark-line">
 					<h1>GameCraft PE</h1>
 					<p>GameCraftPE is a small network where you and your friends can gather and play.</p>
+					<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+					<script>
+						$(document).ready(function () {
+						 function updateDiv() {
+							 $.ajax({
+								 url: "https://mcapi.ca/query/gamecraftpe.tk:19132/mcpe",
+								 dataType: "json",
+								 cache: false,
+								 success: function (data) {
+									 if (data.status == true) {
+										var percent = (data.players.online / data.players.max) * 100;
+										var rounded = Math.round(percent);
+										if (rounded == 0) {
+												$("#status").html("<p>" + "<span style='color:#00AA00;text-shadow: 3px 3px #002a00;'>Online</span> (" + data.version + ") — " + data.players.online.toLocaleString() + "/" + data.players.max.toLocaleString() + " <span style='color:#AAAAAA;text-shadow: 3px 3px #2a2a2a;'>||||||||||</span></p>");
+											} else if (rounded == 1 || rounded == 2 || rounded == 3 || rounded == 4 || rounded == 5 || rounded == 6 || rounded == 7 || rounded == 8 || rounded == 9 || rounded == 10 || rounded == 11 || rounded == 12 || rounded == 13 || rounded == 14 || rounded == 15 || rounded == 16 || rounded == 17 || rounded == 18 || rounded == 19) {
+												$("#status").html("<p>" + "<span style='color:#00AA00;text-shadow: 3px 3px #002a00;'>Online</span> (" + data.version + ") — " + data.players.online.toLocaleString() + "/" + data.players.max.toLocaleString() + " <span style='color:#00aa00;text-shadow: 3px 3px #002a00;'>|</span><span style='color:#AAAAAA;text-shadow: 3px 3px #2a2a2a;'>|||||||||</span></p>");
+											} else if (rounded == 20 || rounded == 21 || rounded == 22 || rounded == 23 || rounded == 24 || rounded == 25 || rounded == 26 || rounded == 27 || rounded == 28 || rounded == 29) {
+												$("#status").html("<p>" + "<span style='color:#00AA00;text-shadow: 3px 3px #002a00;'>Online</span> (" + data.version + ") — " + data.players.online.toLocaleString() + "/" + data.players.max.toLocaleString() + " <span style='color:#00aa00;text-shadow: 3px 3px #002a00;'>||</span><span style='color:#AAAAAA;text-shadow: 3px 3px #2a2a2a;'>||||||||</span></p>");
+											} else if (rounded == 30 || rounded == 31 || rounded == 32 || rounded == 33 || rounded == 34 || rounded == 35 || rounded == 36 || rounded == 37 || rounded == 38 || rounded == 39) {
+												$("#status").html("<p>" + "<span style='color:#00AA00;text-shadow: 3px 3px #002a00;'>Online</span> (" + data.version + ") — " + data.players.online.toLocaleString() + "/" + data.players.max.toLocaleString() + " <span style='color:#00aa00;text-shadow: 3px 3px #002a00;'>|||</span><span style='color:#AAAAAA;text-shadow: 3px 3px #2a2a2a;'>|||||||</span></p>");
+											} else if (rounded == 40 || rounded == 41 || rounded == 42 || rounded == 43 || rounded == 44 || rounded == 45 || rounded == 46 || rounded == 47 || rounded == 48 || rounded == 49) {
+												$("#status").html("<p>" + "<span style='color:#00AA00;text-shadow: 3px 3px #002a00;'>Online</span> (" + data.version + ") — " + data.players.online.toLocaleString() + "/" + data.players.max.toLocaleString() + " <span style='color:#00aa00;text-shadow: 3px 3px #002a00;'>||||</span><span style='color:#AAAAAA;text-shadow: 3px 3px #2a2a2a;'>||||||</span></p>");
+											} else if (rounded == 50 || rounded == 51 || rounded == 52 || rounded == 53 || rounded == 54 || rounded == 55 || rounded == 56 || rounded == 57 || rounded == 58 || rounded == 59) {
+												$("#status").html("<p>" + "<span style='color:#00AA00;text-shadow: 3px 3px #002a00;'>Online</span> (" + data.version + ") — " + data.players.online.toLocaleString() + "/" + data.players.max.toLocaleString() + " <span style='color:#00aa00;text-shadow: 3px 3px #002a00;'>|||||</span><span style='color:#AAAAAA;text-shadow: 3px 3px #2a2a2a;'>|||||</span></p>");
+											} else if (rounded == 60 || rounded == 61 || rounded == 62 || rounded == 63 || rounded == 64 || rounded == 65 || rounded == 66 || rounded == 67 || rounded == 68 || rounded == 69) {
+												$("#status").html("<p>" + "<span style='color:#00AA00;text-shadow: 3px 3px #002a00;'>Online</span> (" + data.version + ") — " + data.players.online.toLocaleString() + "/" + data.players.max.toLocaleString() + " <span style='color:#00aa00;text-shadow: 3px 3px #002a00;'>||||||</span><span style='color:#AAAAAA;text-shadow: 3px 3px #2a2a2a;'>||||</span></p>");
+											} else if (rounded == 70 || rounded == 71 || rounded == 72 || rounded == 73 || rounded == 74 || rounded == 75 || rounded == 76 || rounded == 77 || rounded == 78 || rounded == 79) {
+												$("#status").html("<p>" + "<span style='color:#00AA00;text-shadow: 3px 3px #002a00;'>Online</span> (" + data.version + ") — " + data.players.online.toLocaleString() + "/" + data.players.max.toLocaleString() + " <span style='color:#00aa00;text-shadow: 3px 3px #002a00;'>|||||||</span><span style='color:#AAAAAA;text-shadow: 3px 3px #2a2a2a;'>|||</span></p>");
+											} else if (rounded == 80 || rounded == 81 || rounded == 82 || rounded == 83 || rounded == 84 || rounded == 85 || rounded == 86 || rounded == 87 || rounded == 88 || rounded == 89) {
+												$("#status").html("<p>" + "<span style='color:#00AA00;text-shadow: 3px 3px #002a00;'>Online</span> (" + data.version + ") — " + data.players.online.toLocaleString() + "/" + data.players.max.toLocaleString() + " <span style='color:#00aa00;text-shadow: 3px 3px #002a00;'>||||||||</span><span style='color:#AAAAAA;text-shadow: 3px 3px #2a2a2a;'>||</span></p>");
+											} else if (rounded == 90 || rounded == 91 || rounded == 92 || rounded == 93 || rounded == 94 || rounded == 95 || rounded == 96 || rounded == 97 || rounded == 98 || rounded == 99) {
+												$("#status").html("<p>" + "<span style='color:#00AA00;text-shadow: 3px 3px #002a00;'>Online</span> (" + data.version + ") — " + data.players.online.toLocaleString() + "/" + data.players.max.toLocaleString() + " <span style='color:#00aa00;text-shadow: 3px 3px #002a00;'>|||||||||</span><span style='color:#AAAAAA;text-shadow: 3px 3px #2a2a2a;'>|</span></p>");
+											} else if (rounded == 100) {
+												$("#status").html("<p>" + "<span style='color:#00AA00;text-shadow: 3px 3px #002a00;'>Online</span> (" + data.version + ") — " + data.players.online.toLocaleString() + "/" + data.players.max.toLocaleString() + " <span style='color:#00aa00;text-shadow: 3px 3px #002a00;'>||||||||||</span></p>");
+											} else {
+												
+											}
+										} else {
+										 $("#status").html("<p><span style='color:#ff5555;         text-shadow: 3px 3px #3F1515;'>The server is offline or unreachable</span></p>");
+									 	}
+								 	}
+							 	});
+						 	}
+						 	updateDiv();
+						 	setInterval(updateDiv, 10000);
+							});
+				 </script>
+				 <div id="status">
+				 <p style="color: #AAAAAA;text-shadow: 3px 3px #2a2a2a;" class="loading">Loading network status</p>
+				 </div>
+					<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 				</div>
 					<div class="arrows"></div>
 	       	</div>
@@ -96,6 +147,7 @@
 				<i class="fa fa-cog fa-2x"></i>
 				<div class="col-content">
 					<h5>Custom minigames</h5>
+
 					<p>We provide you the best game-experience with our home made custom minigames and great builds. Join us to experience the feeling and have countless hours of fun!</p>
 				</div>
 			</div>
